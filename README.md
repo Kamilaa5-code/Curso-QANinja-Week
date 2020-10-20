@@ -7,7 +7,8 @@ Configurando Ambiente
  - Baixar e instalar o VS code;
  - Baixar e instalar o Console Emulator;
  - Instalar o framework Capybara pelo GEMFILE (https://rubygems.org/gems/capybara);
-		- Criar um arquivo de dependencias Gemfile.
-		- No console emulator digite install bundler;
-		- No console emulator, ir para a pasta do projeto digite bundle install
+		
+	- Criar um arquivo de dependencias Gemfile.
+	- No console emulator digite install bundler;
+	- No console emulator, ir para a pasta do projeto digite bundle install
  
