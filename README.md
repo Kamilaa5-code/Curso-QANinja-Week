@@ -20,4 +20,6 @@ Como executar um teste:
 - No Console Emulator abrir a pasta onde esta o teste (Ex: cd c:\robot\web);
 - Digitar cucumber
 
+Comandos adicionais:
+
 - cucumber -t @happy (execução de um unico teste, no caso o que contém a tag @happy)
