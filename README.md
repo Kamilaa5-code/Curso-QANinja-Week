@@ -12,3 +12,4 @@ Configurando Ambiente
 	- No console emulator digite install bundler;
 	- No console emulator, ir para a pasta do projeto digite bundle install
  
+- Instalar o Cucumber pelo GEMFILE como o Capybara;
