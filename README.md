@@ -8,6 +8,7 @@ Configurando Ambiente
  - Instalar as extensões cucumber e ruby language colorization no vscode;
  - Baixar e instalar o Console Emulator;
  - Instalar o framework Capybara pelo GEMFILE (https://rubygems.org/gems/capybara);
+ - Instalar o rspec e o httparty pelo GEMFILE
 		
 	- Criar um arquivo de dependencias Gemfile.
 	- No console emulator digite install bundler;
@@ -23,3 +24,4 @@ Como executar um teste:
 Comandos adicionais:
 
 - cucumber -t @happy (execução de um unico teste, no caso o que contém a tag @happy)
+-  cucumber features\cadastro.feature (rodar todos os testes)
