@@ -9,6 +9,7 @@ Configurando Ambiente
  - Baixar e instalar o Console Emulator;
  - Instalar o framework Capybara pelo GEMFILE (https://rubygems.org/gems/capybara);
  - Instalar o rspec e o httparty pelo GEMFILE
+ - Identar código ruby com rufo (instalar pelo gemfile e também a extensão do vscode)
 		
 	- Criar um arquivo de dependencias Gemfile.
 	- No console emulator digite install bundler;
