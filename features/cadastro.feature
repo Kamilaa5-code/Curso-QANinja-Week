@@ -30,3 +30,9 @@ Funcionalidade: cadastro de Usuários
             | kamila@hotmail.com |        |                | Oops! Informe sua senha.             |
             | kamila@hotmail.com | pwd123 | abc123         | Oops! Senhas não são iguais.         |
             |                    |        |                | Oops! Informe seu email e sua senha. |
+    
+    @temp
+    Cenario: Validação do campo email
+
+        Quando acesso a página de cadastro
+        Então deve exibir o seguinte css: "input[type=email]"
