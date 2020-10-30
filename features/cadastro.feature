@@ -9,9 +9,9 @@ Funcionalidade: cadastro de Usuários
     Cenario: Cadastro
         Dado que acesso a página de cadastro
         Quando submeto o meu cadastro com
-            | email          | kamila@hotmail.com |
-            | senha          | pwd123             |
-            | senha_confirma | pwd123             |
+            | email          | kamilaa5@hotmail.com |
+            | senha          | pwd123               |
+            | senha_confirma | pwd123               |
         Então devo ser redirecionado para a área logada
 
     Esquema do Cenário: Tentativas de cadastro
@@ -27,10 +27,10 @@ Funcionalidade: cadastro de Usuários
 
             | email              | senha  | confirma_senha | mensagem_saida                       |
             |                    | pwd123 | pwd123         | Oops! Informe seu email.             |
-            | kamila@hotmail.com |        |                | Oops! Informe sua senha.             |
-            | kamila@hotmail.com | pwd123 | abc123         | Oops! Senhas não são iguais.         |
+            | kamila@mail.com |        |                | Oops! Informe sua senha.             |
+            | kamila@mail.com | pwd123 | abc123         | Oops! Senhas não são iguais.         |
             |                    |        |                | Oops! Informe seu email e sua senha. |
-    
+
     @temp
     Cenario: Validação do campo email
 

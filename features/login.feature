@@ -8,7 +8,7 @@ Funcionalidade: Login
     Cenario: Login do usuário
 
         Dado que acesso a página de login
-        Quando submeto minhas credenciais com: "kamila@hotmail.com" e "pwd123"
+        Quando submeto minhas credenciais com: "kamila@gmail.com" e "qnw123"
         Então devo ser redirecionado para a área logada
 
     Esquema do Cenário: Tentativas de login
